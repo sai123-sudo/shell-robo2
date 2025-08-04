@@ -3,7 +3,7 @@
 AMI_ID="ami-09c813fb71547fc4f"
 SG_ID="sg-0af15763a7cc97cac"
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
-ZONE_ID="Z01776572PGDSVKCIPZD0" # replace with your ZONE ID 123
+ZONE_ID="Z01776572PGDSVKCIPZD0" # replace with your ZONE ID
 DOMAIN_NAME="vara84s.site"
 
 for instance in $@
